@@ -1,0 +1,101 @@
+body {
+    background-color: #ffffff;
+    font-family:"Helvetica",sans-serif;
+    color:rgb(0, 0, 0);
+  }
+  
+  header nav ul {
+    background-color:rgb(109, 68, 255);
+    border-style: solid;
+    border-color: rgb(47, 0, 175);
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 10px;
+    color:rgb(172, 242, 255)
+    
+   
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+header nav ul li a {
+  text-decoration: none;
+  color:#000000
+}
+
+  h1, p {
+    color: black;
+    font-family: "arial", serif;
+  }
+  
+.halftext {
+  height: 100vh;
+  width: 50%;         /*ik heb dit ergens gevonden op internet en toen wist ik nog niet van comments af dus kon ik het toen niet melden*/
+}
+
+  .img_right {     /*ik heb dit ergens gevonden op internet en toen wist ik nog niet van comments af dus kon ik het toen niet melden*/
+  
+    border-radius: 30px;
+    display: block ;                    
+    margin-left:auto;
+     
+  }
+  
+  footer nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+  
+footer nav ul {
+  background-color:rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  color:rgb(0, 0, 0)
+  
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color:#2f00ff
+  
+}
+
+.center {
+  text-align: center;
+}
+
+.centermap { 
+  margin-left: 50%;
+  margin-right: 50%;
+  
+}
+
+header nav ul {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li {
+  text-align: center;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+@media all and (min-width: 1000px) {
+  nav ul {
+      flex-direction: row;
+      justify-content: space-around;
+  }
+}
